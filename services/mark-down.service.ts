@@ -1,7 +1,7 @@
 import {JsDomService} from '.';
 import MarkdownIt from 'markdown-it';
 import {NodeHtmlMarkdown} from 'node-html-markdown';
-import { TranslateProvider } from '../enums';
+import { TranslateProvider } from '../interfaces';
 
 export class MarkdownService {
   markdownItClient: any;

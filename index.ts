@@ -1,4 +1,4 @@
-import { TextType, TranslateProvider } from "./enums";
+import { TextType, TranslateProvider } from "./interfaces";
 import { JsDomService, MarkdownService } from "./services";
 require('dotenv').config();
 

@@ -1,6 +1,6 @@
 import { JSDOM } from "jsdom";
-import { TranslateProvider } from "../enums";
-import { AwsTranslateService } from "./aws-translate.service";
+import { TranslateProvider } from "../interfaces";
+import { AwsTranslateService } from "./aws.service";
 const { Node } = new JSDOM("").window;
 
 export class JsDomService {
