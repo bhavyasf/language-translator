@@ -4,8 +4,8 @@
     "module": "commonjs",                                /* Specify what module code is generated. */                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
     "skipLibCheck": true,
-    "esModuleInterop": true
-                       /* Skip type checking all .d.ts files. */
-
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true
   }
 }

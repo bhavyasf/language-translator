@@ -12,9 +12,13 @@ be more packages like this.
 
 You need to set environment variables:
 
+```
 AWS_ACCESS_KEY=<your-aws-access-key>
+
 AWS_SECRET_KEY=<your-aws-secret-key>
+
 REGION=<your-aws-region> (default is us-east-1)
+```
 
 ## Basic Usage
 
